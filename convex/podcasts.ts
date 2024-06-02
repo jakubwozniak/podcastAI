@@ -100,7 +100,7 @@ export const getTrendingPodcasts = query({
 });
 
 // this query will get the podcast by the authorId.
-/*export const getPodcastByAuthorId = query({
+export const getPodcastByAuthorId = query({
   args: {
     authorId: v.string(),
   },
@@ -117,7 +117,7 @@ export const getTrendingPodcasts = query({
 
     return { podcasts, listeners: totalListeners };
   },
-});*/
+});
 
 // this query will get the podcast by the search query.
 export const getPodcastBySearch = query({
